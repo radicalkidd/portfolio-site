@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="project-container">
         <h1>Hello from Projects</h1>
       </div>
     );
