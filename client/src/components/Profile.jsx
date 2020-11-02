@@ -14,15 +14,15 @@ class Profile extends Component {
     return (
       <div className="profile-container">
         <img className="profile-img" src={profilePic} alt="vu-image"></img>
-        <h1>Vu Huynh</h1>
+        <h1 className="profile-name">Vu Huynh</h1>
         <h3>Software Engineer Based in the Bay Area</h3>
         <div className="skills-container">
-          <img className="npm-img" src={npmImg}></img>
-          <img className="react-img" src={reactImg}></img>
-          <img className="js-img" src={jsImg}></img>
           <img className="html-img" src={htmlImg}></img>
           <img className="css-img" src={cssImg}></img>
+          <img className="js-img" src={jsImg}></img>
+          <img className="react-img" src={reactImg}></img>
           <img className="node-img" src={nodeImg}></img>
+          <img className="npm-img" src={npmImg}></img>
           <img className="mysql-img" src={mysqlImg}></img>
           <img className="mongodb-img" src={mongodbImg}></img>
         </div>

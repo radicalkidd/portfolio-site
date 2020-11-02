@@ -14,8 +14,9 @@ body, html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  color: Black;
+.profile-name{
+  font-size: 35px;
+  color: #e8e8e8;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -23,9 +24,9 @@ h1 {
 h3 {
   margin-top: 0px;
   margin-bottom: 15px;
-  color: black;
+  color: #bbbfca;
 }
-
+/* ---------------------Profile Component------------------------- */
 .profile-img {
   width: 240px;
   height: 240px;
@@ -33,11 +34,11 @@ h3 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 5px solid #bbbfca;
 }
 
 .profile-container {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
   margin: 0 auto;
   min-width: 0;
   margin-left: auto;
@@ -48,12 +49,24 @@ h3 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding-top: 100px;
-  background-color: lightyellow;
+  padding-top: 25px;
+  background-color: #495464;
 }
 
+.react-img {
+  padding-left: 10px;
+}
+
+.node-img {
+  padding: 0 10px 0 10px;
+}
+
+.mysql-img {
+  padding: 0 10px 0 10px;
+}
+/* ---------------------Project Component------------------------- */
 .project-container {
-  height: calc(70vh - 120px);
+  height: calc(90vh - 120px);
   margin: 0 auto;
   min-width: 0;
   /* width: 75%; */
@@ -62,10 +75,15 @@ h3 {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   align-items: center;
   /* padding-top: 10px; */
   background-color: lightsteelblue;
+}
+
+.project-title {
+  font-size: 35px;
+  color: #495464;
 }
 
