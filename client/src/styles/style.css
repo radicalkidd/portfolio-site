@@ -37,6 +37,13 @@ h3 {
   border: 5px solid #bbbfca;
 }
 
+.profile-img:hover {
+  /* display: none; */
+  /* position: relative; */
+  transform: scale(1.08);
+  /* border: 2px solid; */
+}
+
 .profile-container {
   height: calc(100vh - 200px);
   margin: 0 auto;
@@ -53,16 +60,71 @@ h3 {
   background-color: #495464;
 }
 
+.html-img {
+  height: 75px;
+  width: 75px;
+}
+.html-img:hover {
+  transform: scale(1.10);
+}
+
+.css-img {
+  height: 75px;
+  width: 75px;
+}
+.css-img:hover {
+  transform: scale(1.10);
+}
+
+.js-img {
+  height: 75px;
+  width: 75px;
+}
+.js-img:hover {
+  transform: scale(1.10);
+}
+
 .react-img {
   padding-left: 10px;
+  height: 75px;
+  width: 75px;
+}
+.react-img:hover {
+  transform: scale(1.10);
 }
 
 .node-img {
   padding: 0 10px 0 10px;
+  height: 75px;
+  width: 75px;
+}
+.node-img:hover {
+  transform: scale(1.10);
+}
+
+.npm-img {
+  height: 75px;
+  width: 75px;
+}
+.npm-img:hover {
+  transform: scale(1.10);
 }
 
 .mysql-img {
   padding: 0 10px 0 10px;
+  height: 75px;
+  width: 75px;
+}
+.mysql-img:hover {
+  transform: scale(1.10);
+}
+
+.mongodb-img {
+  height: 75px;
+  width: 75px;
+}
+.mongodb-img:hover {
+  transform: scale(1.10);
 }
 /* ---------------------Project Component------------------------- */
 .project-container {
