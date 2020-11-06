@@ -1,7 +1,8 @@
 const path = require("path");
 
 module.exports = {
-  entry: './client/index.jsx',
+  entry: [
+    './client/index.jsx'],
   output: {
     path: path.join(__dirname, '/client/dist'),
     filename: 'bundle.js',
@@ -23,13 +24,12 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
-              outputPath: 'images',
+              name: 'images/[hash]-[name].[ext]',
             },
           },
         ],
